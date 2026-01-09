@@ -372,6 +372,5 @@ httpServer.listen(PORT, () => {
   setTimeout(() => {
     delFiles();
   }, 180000);
-  addAccessTask();
   console.log(`Server is running on port ${PORT}`);
 });
